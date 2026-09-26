@@ -1,0 +1,16 @@
+def stats(numbers):
+    """Return the minimum, maximum, and average of a list of numbers."""
+    minimum = min(numbers)
+    maximum = max(numbers)
+    average = sum(numbers) / len(numbers)
+
+    return minimum, maximum, average
+
+
+numbers = [10, 20, 30, 40, 50]
+
+minimum, maximum, average = stats(numbers)
+
+print("Minimum:", minimum)
+print("Maximum:", maximum)
+print("Average:", average)
